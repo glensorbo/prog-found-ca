@@ -71,3 +71,29 @@ for (let i = 15; i <= 25; i++) {
     console.log("Q6:", i);
   }
 }
+
+/*
+ * 7.
+ * Create an array of two objects. Each object must have the same three properties (with different values):
+ *  1. one property with a string value
+ *  2. one property with a number value
+ *  3. one property with a boolean value
+ * Loop through the array and console log the number value and the boolean value.
+ */
+
+const puppies = [
+  {
+    name: "yoshi",
+    age: 5,
+    washed: true,
+  },
+  {
+    name: "marco",
+    age: 6,
+    washed: false,
+  },
+];
+
+for (let i = 0; puppies.length > i; i++) {
+  console.log("Q7:", "age:", puppies[i].age, "washed:", puppies[i].washed);
+}
