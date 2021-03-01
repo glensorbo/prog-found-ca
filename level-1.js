@@ -34,3 +34,20 @@ if (outOfStock === true) {
 outOfStock === true
   ? console.log("Q3: " + "Out of stock")
   : console.log("Q3: " + "In stock");
+
+/*
+ * 4.
+ * Create an array of five numbers. Loop through the array and console log each value.
+ */
+
+const userIds = [
+  "534654674574",
+  "590465458636",
+  "435456456836",
+  "896753457648",
+  "985698467946",
+];
+
+for (let i = 0; userIds.length > i; i++) {
+  console.log("Q4:", userIds[i]);
+}
