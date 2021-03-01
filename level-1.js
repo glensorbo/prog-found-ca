@@ -113,3 +113,16 @@ function whatIDontLike(dislike) {
 whatIDontLike("giraffes");
 
 // const whatIDontLike = dislike => console.log("I don't like " + dislike)
+
+/*
+ * 9.
+ * Create a function that accepts two arguments.
+ * Inside the function, subtract the second argument from the first and console log the result.
+ */
+
+function subtract(number1, number2) {
+  const calculatedValue = number2 - number1;
+  console.log("Q9:", calculatedValue);
+}
+
+subtract(10, 200);
