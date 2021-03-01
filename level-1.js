@@ -51,3 +51,12 @@ const userIds = [
 for (let i = 0; userIds.length > i; i++) {
   console.log("Q4:", userIds[i]);
 }
+
+/*
+ * 5.
+ * Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
+ */
+
+for (let i = 15; i <= 25; i++) {
+  console.log("Q5:", i);
+}
