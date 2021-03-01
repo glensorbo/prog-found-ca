@@ -60,3 +60,14 @@ for (let i = 0; userIds.length > i; i++) {
 for (let i = 15; i <= 25; i++) {
   console.log("Q5:", i);
 }
+
+/*
+ * 6.
+ * Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
+ */
+
+for (let i = 15; i <= 25; i++) {
+  if (i === 20) {
+    console.log("Q6:", i);
+  }
+}
