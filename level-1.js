@@ -97,3 +97,19 @@ const puppies = [
 for (let i = 0; puppies.length > i; i++) {
   console.log("Q7:", "age:", puppies[i].age, "washed:", puppies[i].washed);
 }
+
+/*
+ * 8.
+ * Create a function called whatIDontLike that accepts one argument. Choose a good name for the argument.
+ * Inside the function, log the string "I don't like " together with the argument.
+ * Call the function and pass in a value of your choice.
+ * EXAMPLE: If you pass in the value "giraffes", the function should log: "I don't like giraffes".
+ */
+
+function whatIDontLike(dislike) {
+  console.log("Q8:", "I don't like " + dislike);
+}
+
+whatIDontLike("giraffes");
+
+// const whatIDontLike = dislike => console.log("I don't like " + dislike)
