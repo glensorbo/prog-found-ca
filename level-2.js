@@ -4,7 +4,7 @@
  * HINT: You can use the modulus % operator for this.
  */
 
-// I used questing 3 in below repo as reference. That was ODD numbers so === gave me what I wanted.
+// I used question 3 in below repo as reference. That was ODD numbers so === gave me what I wanted.
 // https://github.com/NoroffFEU/lesson-task-pf-module1-lesson4/blob/answers/js/script.js
 
 for (let i = 15; i <= 25; i++) {
