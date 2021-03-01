@@ -126,3 +126,26 @@ function subtract(number1, number2) {
 }
 
 subtract(10, 200);
+
+/*
+ * 10.
+ * Create an empty array.
+ * Create a function that accepts one argument.
+ * Inside the function, add the argument to the array.
+ * Call the function and pass in a value of any type.
+ */
+
+const users = [];
+
+function addUser(user) {
+  users.push(user);
+}
+
+// const addUser = user => users.push(user)
+
+addUser({
+  email: "email@email.com",
+  password: "stronkPassword123",
+});
+
+console.log("Q10:", users);
