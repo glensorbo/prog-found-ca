@@ -52,6 +52,12 @@ for (let i = 0; userIds.length > i; i++) {
   console.log("Q4:", userIds[i]);
 }
 
+// Below forEach was added AFTER link submission, but before handin timelimit
+
+// userIds.forEach((userId, index) => {
+//   console.log("Q4:", userId);
+// });
+
 /*
  * 5.
  * Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
@@ -97,6 +103,12 @@ const puppies = [
 for (let i = 0; puppies.length > i; i++) {
   console.log("Q7:", "age:", puppies[i].age, "washed:", puppies[i].washed);
 }
+
+// Below forEach was added AFTER link submission, but before handin timelimit
+
+// puppies.forEach((puppy, index) => {
+//   console.log("Q7:", "age:", puppy.age, "washed:", puppy.washed);
+// });
 
 /*
  * 8.
